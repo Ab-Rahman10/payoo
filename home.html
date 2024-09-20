@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payoo Home Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <main class="flex justify-center items-center h-dvh">
+      <div class="mockup-phone">
+        <div class="camera"></div>
+        <div class="display">
+          <div class="artboard artboard-demo phone-3">
+            <!-- available balance -->
+            <div class="stats shadow">
+              <div class="stat">
+                <div class="stat-value">50000</div>
+                <div class="stat-desc">Available balance</div>
+              </div>
+            </div>
+            <div class="divider"></div>
+            <!-- User action buttons -->
+            <div>
+              <button class="btn btn-lg">Add money</button>
+              <button class="btn btn-lg">Cash out</button>
+            </div>
+            <div class="divider"></div>
+            <!-- Add money form -->
+            <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+              <form class="card-body">
+                <div class="form-control">
+                  <label class="label">
+                    <span class="label-text">Enter Amount</span>
+                  </label>
+                  <input
+                    type="email"
+                    placeholder="Amount"
+                    class="input input-bordered"
+                    required
+                  />
+                </div>
+                <div class="form-control">
+                  <label class="label">
+                    <span class="label-text">Enter Pin</span>
+                  </label>
+                  <input
+                    type="password"
+                    placeholder="password"
+                    class="input input-bordered"
+                    autocomplete="off"
+                    required
+                  />
+                </div>
+                <div class="form-control mt-6">
+                  <button class="btn btn-primary">Login</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./js/home.js"></script>
+  </body>
+</html>
